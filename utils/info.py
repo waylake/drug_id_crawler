@@ -1,0 +1,5 @@
+info_dict = {
+    'select': {
+        ''
+    }
+}
