@@ -48,7 +48,6 @@ class Drug_scraper:
     def base_table(self):
         try:
             for drug_id in tqdm.tqdm(self.drug_id_list):
-                rows = []
                 url = self.url + drug_id
                 headers = Headers(headers=True).generate()
                 res= requests.get(url, headers=headers)
@@ -64,15 +63,13 @@ class Drug_scraper:
                                 row[2] = tr.find('td').text
                         except:
                             pass
-                    rows.append(row)
-            self.base_table_rows = rows
+                    self.base_table_rows.append(row)
         except Exception as e:
             print(e)
 
     def mutation_table(self):
         try:
             for drug_id in tqdm.tqdm(self.drug_id_list):
-                rows = []
                 url = self.url + drug_id
                 headers = Headers(headers=True).generate()
                 res= requests.get(url, headers=headers)
@@ -93,8 +90,7 @@ class Drug_scraper:
                                 row[4] = table_tr.find('td').text
                             elif table_tr.find('th').text == 'Level of Resistance':
                                 row[5] = table_tr.find('td').text
-                        rows.append(row)
-            self.mutation_table_rows = rows
+                        self.mutation_table_rows.append(row)
         except Exception as e:
             print(e)
 
