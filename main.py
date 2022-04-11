@@ -48,11 +48,11 @@ class Drug_scraper:
     def base_table(self):
         try:
             for drug_id in tqdm.tqdm(self.drug_id_list):
+                rows = []
                 url = self.url + drug_id
                 headers = Headers(headers=True).generate()
                 res= requests.get(url, headers=headers)
                 soup = BeautifulSoup(res.text, 'html.parser')
-                rows = []
                 for DRM in soup.find_all('tr', {'class': 'blue-bg'}):
                     row = [None, None, None]
                     for tr in soup.find_all('tr'):
@@ -64,7 +64,7 @@ class Drug_scraper:
                                 row[2] = tr.find('td').text
                         except:
                             pass
-                rows.append(row)
+                    rows.append(row)
             self.base_table_rows = rows
         except Exception as e:
             print(e)
@@ -93,7 +93,7 @@ class Drug_scraper:
                                 row[4] = table_tr.find('td').text
                             elif table_tr.find('th').text == 'Level of Resistance':
                                 row[5] = table_tr.find('td').text
-                rows.append(row)
+                        rows.append(row)
             self.mutation_table_rows = rows
         except Exception as e:
             print(e)
