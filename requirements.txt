@@ -1,0 +1,95 @@
+altgraph==0.17.2
+appnope @ file:///opt/concourse/worker/volumes/live/5f13e5b3-5355-4541-5fc3-f08850c73cf9/volume/appnope_1606859448618/work
+astroid==2.11.2
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+auto-py-to-exe==2.18.2
+autopep8==1.6.0
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+beautifulsoup4==4.10.0
+bottle==0.12.19
+bottle-websocket==0.2.9
+bs4==0.0.1
+certifi==2021.10.8
+charset-normalizer==2.0.12
+chromedriver-autoinstaller==0.3.1
+commonmark==0.9.1
+debugpy @ file:///opt/concourse/worker/volumes/live/e17abc9f-08a9-4dca-4e9b-e6d24bde47ce/volume/debugpy_1637091828617/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+dill==0.3.4
+Eel==0.12.4
+entrypoints==0.3
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+fake-headers==1.0.2
+flake8==4.0.1
+future==0.18.2
+gevent==21.12.0
+gevent-websocket==0.10.1
+greenlet==1.1.2
+html-to-json==2.0.0
+html5lib==1.1
+idna==3.3
+ipykernel @ file:///opt/concourse/worker/volumes/live/675cc243-e35d-4e85-47e2-838adcdd7698/volume/ipykernel_1647000791373/work/dist/ipykernel-6.9.1-py3-none-any.whl
+ipython @ file:///opt/concourse/worker/volumes/live/b183088c-92e7-466d-7d13-6af200463381/volume/ipython_1648817085115/work
+isort==5.10.1
+jedi @ file:///opt/concourse/worker/volumes/live/fb2e45f1-1dff-42fa-6cab-bd094a4c4372/volume/jedi_1644315264796/work
+jupyter-client @ file:///opt/conda/conda-bld/jupyter_client_1643638337975/work
+jupyter-core @ file:///opt/concourse/worker/volumes/live/d74cfa15-eb85-4119-7aea-67f807ff4440/volume/jupyter_core_1646994469397/work
+lazy-object-proxy==1.7.1
+lxml==4.8.0
+macholib==1.16
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mccabe==0.6.1
+msgpack==1.0.3
+mypy==0.942
+mypy-extensions==0.4.3
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
+numpy==1.22.3
+pandas==1.4.2
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+platformdirs==2.5.1
+pluggy==1.0.0
+pprintpp==0.4.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pycodestyle==2.8.0
+pydocstyle==6.1.1
+pyflakes==2.4.0
+Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
+pyinstaller==4.10
+pyinstaller-hooks-contrib==2022.3
+pylint==2.13.4
+pyls-isort==0.2.2
+pylsp-mypy==0.5.7
+PyMySQL==1.0.2
+pynvim==0.4.3
+PySimpleGUI==4.59.0
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-lsp-jsonrpc==1.0.0
+python-lsp-server==1.4.1
+pytz==2022.1
+pyzmq @ file:///opt/concourse/worker/volumes/live/12b008ff-2acb-4e15-682d-fce50395a9d4/volume/pyzmq_1638434992289/work
+requests==2.27.1
+rich==12.2.0
+rope==0.23.0
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+snowballstemmer==2.2.0
+soupsieve==2.3.1
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+toml==0.10.2
+tomli==2.0.1
+tornado @ file:///opt/concourse/worker/volumes/live/05341796-4198-4ded-4a9a-332fde3cdfd1/volume/tornado_1606942323372/work
+tqdm==4.64.0
+traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+typing_extensions==4.1.1
+ujson==5.2.0
+urllib3==1.26.9
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webencodings==0.5.1
+whichcraft==0.6.1
+wrapt==1.14.0
+yapf==0.32.0
+zope.event==4.5.0
+zope.interface==5.4.0
